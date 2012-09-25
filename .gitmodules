@@ -1,1 +1,15 @@
-
+[submodule "puppet/modules/apache"]
+	path = puppet/modules/apache
+	url = git@github.com:he8us/puppet-apache.git
+[submodule "puppet/modules/php"]
+	path = puppet/modules/php
+	url = git@github.com:he8us/puppet-php.git
+[submodule "puppet/modules/mysql"]
+	path = puppet/modules/mysql
+	url = git@github.com:he8us/puppet-mysql.git
+[submodule "puppet/modules/project"]
+	path = puppet/modules/project
+	url = git@github.com:he8us/puppet-project.git
+[submodule "puppet/modules/resolver"]
+	path = puppet/modules/resolver
+	url = git@github.com:he8us/puppet-resolver.git
