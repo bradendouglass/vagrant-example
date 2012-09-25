@@ -7,9 +7,6 @@ Vagrant::Config.run do |config|
 	# doesn't already exist on the user's system.
 	config.vm.box_url = "http://files.vagrantup.com/precise64.box"
 
-	# Forward a port from the guest to the host, which allows for outside
-	# computers to access the VM, whereas host only networking does not.
-
 
 	config.vm.define :web1 do |web1_config|
 		web1_config.vm.forward_port 80, 8080
