@@ -1,0 +1,4 @@
+
+[submodule "puppet/modules"]
+	path = puppet/modules
+	url = git@github.com:he8us/puppet-modules.git
