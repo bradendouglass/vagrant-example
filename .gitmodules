@@ -13,6 +13,6 @@
 [submodule "puppet/modules/resolver"]
 	path = puppet/modules/resolver
 	url = git@github.com:he8us/puppet-resolver.git
-[submodule "composer"]
+[submodule "puppet/modules/composer"]
 	path = puppet/modules/composer
 	url = https://github.com/willdurand/puppet-composer.git

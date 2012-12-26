@@ -19,8 +19,6 @@ node default {
 
     }
 		
-		include composer
-		
 		class {"composer":
 		command_name => 'composer',
 		target_dir   => '/usr/local/bin'
