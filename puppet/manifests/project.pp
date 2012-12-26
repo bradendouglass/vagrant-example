@@ -18,4 +18,11 @@ node default {
 		sitepath => "/vagrant/webroot",
 
     }
+		
+		include composer
+		
+		class {"composer":
+		command_name => 'composer',
+		target_dir   => '/usr/local/bin'
+	 }
 }
